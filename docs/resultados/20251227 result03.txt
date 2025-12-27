@@ -1,0 +1,795 @@
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 12711135)...
+
+╔══ [AUDITORÍA PROFUNDA] 6A - 125 - Voskhod II (Original Mix) - So Many Man .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Voskhod II
+║   ├── Artista:  So Many Men
+║   ├── Álbum:    Voskhod
+║   ├── A.Artist: So Many Men
+║   ├── Año:      2019
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Bordello A Parigi
+║   ├── Catálogo:         BAPXX8
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): Techno, Neo Trance
+║   ├── Type / Status:    Single / Official
+║   ├── Country:          XW
+║   ├── ISRC:             NLUL61900002
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    4dd283da-1cfd-4b67-8b7c-796a94c1284e
+║   ├── Discogs Rel ID:   13218170
+║   ├── Spotify ID:       77aIlm95I7GibdRLagwtyd
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     [Scoring] 'PBR Streetgang - Pigeon St.' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'PBR Streetgang - Pigeon St.' | Normal=1.00 Swap=0.00 Final=1.00
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 5B - 124 - Alone (feat. FEMME) (Original Mix) - Cristoph.mp3 (feat. FEMME) (Original Mix) 5B - 124 - Alone (feat. FEMME) (Original Mix) - Cristoph.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Alone
+║   ├── Artista:  Cristoph, FEMME
+║   ├── Álbum:    8‐track
+║   ├── A.Artist: Cristoph
+║   ├── Año:      2016
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Album / Official
+║   ├── Country:          XW
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    8ae0e50f-200c-457e-b3aa-1fc6feb05c33
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       4Bu5Y6sAxJIIG4vJNdb1kc
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     -> Deep Fetch Exitoso: 2 estilos.
+
+╔══ [AUDITORÍA PROFUNDA] 6A - 122 - Jahar (Mathias Schober Remix) - BOg .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Jahar
+║   ├── Artista:  BOg
+║   ├── Álbum:    Terra EP
+║   ├── A.Artist: 
+║   ├── Año:      2018
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     TAU
+║   ├── Catálogo:         TAU002
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Tech House, Deep Techno
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   12711135
+║   ├── Spotify ID:       3TAXIX1W93GgPYbn6UaT4D
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     [Scoring] 'Medusa Odyssey, Paresse - Pahm - Paresse Remix' | Normal=0.96 Swap=0.12 Final=0.96
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Andy Bros - Dreams EP
+     -> Label encontrado: Diynamic Music
+     -> [Authority] Discogs Authority Confirmed (Label: Diynamic Music, Cat: DIYNAMIC112)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 13549683)...
+  -> [Enrichment] Buscando 'PBR Streetgang - Pigeon St.' en Discogs...
+     -> Deep Fetch Exitoso: 2 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Andy Bros Diamante Blu' / 'Diamante Blu Andy Bros'
+     [Scoring] 'Andy Bros - Diamante Blu' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'ANDY ALASKA - Bogota Ice - Session #2' | Normal=0.13 Swap=0.00 Final=0.13
+     [Scoring] 'Zyko Ny - Andy Tribute' | Normal=0.00 Swap=0.13 Final=0.13
+     [Scoring] 'ANDY ALASKA, Steveen, Wolfy - Conformarme' | Normal=0.08 Swap=0.00 Final=0.08
+     [Scoring] 'ANDY ALASKA - CTG ICE Session 1' | Normal=0.13 Swap=0.00 Final=0.13
+     [Scoring] 'Andy Bros - Diamante Blu' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'ANDY ALASKA - CTG ICE Session 1' | Normal=0.13 Swap=0.00 Final=0.13
+  -> [Enrichment] Spotify Match: Diamante Blu - Dreams - EP (2019)
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 120 - Diamante Blu (Original Mix) - Andy Bros .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Diamante Blu
+║   ├── Artista:  Andy Bros
+║   ├── Álbum:    Dreams EP
+║   ├── A.Artist: 
+║   ├── Año:      2019
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Diynamic Music
+║   ├── Catálogo:         DIYNAMIC112
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Tech House, Nu-Disco
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   13549683
+║   ├── Spotify ID:       0GsfdA1rHlgEa65O6FGVpx
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Buscando 'Medusa Odyssey, Paresse - Pahm - Paresse Remix' en Discogs...
+     [Scoring] 'Goldroom, George Maple, Madeaux - Embrace - Madeaux Remix' | Normal=0.54 Swap=0.54 Final=0.54
+[Strict] Match descartado por baja confianza (0.54 < 0.9)
+  -> [Enrichment] Buscando 'Dust - Terr' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Terr')...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Pigeon St')...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Pahm Paresse Remix')...
+  -> [Enrichment] Buscando 'ME & U - Madeaux' en Discogs...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Terr - Dust
+     -> Label encontrado: Clash Lion
+     -> [Authority] Discogs Authority Confirmed (Label: Clash Lion, Cat: CL007)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 15403701)...
+  -> [Enrichment] Spotify Dual Query: 'PBR Streetgang Pigeon St.' / 'Pigeon St. PBR Streetgang'
+     [Scoring] 'PBR Streetgang - Pigeon St.' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'PBR Streetgang - Pigeon St.' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'PBR Streetgang - Pigeon St.' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'PBR Streetgang - Pigeon St.' | Normal=1.00 Swap=0.00 Final=1.00
+  -> [Enrichment] Spotify Match: Pigeon St. - A Summer Riot IX (Pt. 2) (2020)
+     -> [Rescue Loop] Faltan datos (Label/Cat). Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'PBR Streetgang - Pigeon St.' en Discogs...
+  -> [Enrichment] Spotify Dual Query: 'Medusa Odyssey Pahm - Paresse Remix' / 'Pahm - Paresse Remix Medusa Odyssey'
+     [Scoring] 'Medusa Odyssey, Paresse - Pahm - Paresse Remix' | Normal=0.96 Swap=0.12 Final=0.96
+     [Scoring] 'DJ LaMore - Medusa - Radio Edit' | Normal=0.00 Swap=0.10 Final=0.10
+     [Scoring] 'Nico de Andrea, Vanetty, Afro Medusa - Ethnica (Pasilda)' | Normal=0.06 Swap=0.00 Final=0.06
+     [Scoring] 'MusicoterapiaTeam - Odyssey' | Normal=0.00 Swap=0.36 Final=0.36
+     [Scoring] 'Medusa Odyssey, Paresse - Pahm - Paresse Remix' | Normal=0.96 Swap=0.12 Final=0.96
+     [Scoring] 'DJ LaMore - Medusa - Radio Edit' | Normal=0.00 Swap=0.10 Final=0.10
+     [Scoring] 'MusicoterapiaTeam - Odyssey' | Normal=0.00 Swap=0.36 Final=0.36
+     [Scoring] 'Nico de Andrea, Vanetty, Afro Medusa - Ethnica (Pasilda)' | Normal=0.06 Swap=0.00 Final=0.06
+  -> [Enrichment] Spotify Match: Pahm - Paresse Remix - Pahm (2019)
+     -> [Rescue Loop] Faltan datos (Label/Cat). Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Medusa Odyssey, Paresse - Pahm - Paresse Remix' en Discogs...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Madeaux')...
+     -> Deep Fetch Exitoso: 4 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Terr Dust' / 'Dust Terr'
+     [Scoring] 'Another One, terrarium. - Dusty' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Terr - Dust' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Gerling - Dust Me Selecta' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Lust. - Snow Dust' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Dirty Dust - Farenthide' | Normal=0.00 Swap=0.54 Final=0.54
+     [Scoring] 'Another One, terrarium. - Dusty' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Terr - Dust' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Gerling - Dust Me Selecta' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'YG Hypnos - Dust Collector' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Melinha Silmen - Dust Bunnies Of Doom' | Normal=0.54 Swap=0.00 Final=0.54
+  -> [Enrichment] Spotify Match: Dust - Dust (2018)
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 124 - Dust (Original Mix) - Terr .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Dust
+║   ├── Artista:  Terr
+║   ├── Álbum:    Dust
+║   ├── A.Artist: 
+║   ├── Año:      2018
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Clash Lion
+║   ├── Catálogo:         CL007
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Techno, Electro, Nu-Disco, House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   15403701
+║   ├── Spotify ID:       1MPQX7Vt3FRnxds0WbGhvI
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Pigeon St')...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Pahm Paresse Remix')...
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Madeaux - New Wav Remixes
+     -> Label encontrado: Fool's Gold Records
+     -> [Authority] Discogs Authority Confirmed (Label: Fool's Gold Records, Cat: FGR132R)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 8414834)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Buscando 'Tchoukar - Juanito' en Discogs...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+     -> Deep Fetch Exitoso: 1 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Madeaux ME & U' / 'ME & U Madeaux'
+     [Scoring] 'Madeaux - ME & U' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Dezko, CERES - U&ME' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Madeaux - Say It' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Omido - when he holds u close' | Normal=0.10 Swap=0.00 Final=0.10
+     [Scoring] 'Madeaux - ME & U' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Dezko, CERES - U&ME' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Madeaux - Say It' | Normal=0.40 Swap=0.00 Final=0.40
+  -> [Enrichment] Spotify Match: ME & U - Near Life Experience (2022)
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 125 - ME & U - Madeaux .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   ME & U
+║   ├── Artista:  Madeaux
+║   ├── Álbum:    New Wav Remixes
+║   ├── A.Artist: 
+║   ├── Año:      2016
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Fool's Gold Records
+║   ├── Catálogo:         FGR132R
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   8414834
+║   ├── Spotify ID:       23ubYklR6GdWZ9xDYgcuVB
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Asignando Género por defecto: Electronic
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Juanito')...
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 120 - Pigeon St (Original Mix) - PBR Streetgang .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Pigeon St.
+║   ├── Artista:  PBR Streetgang
+║   ├── Álbum:    A Summer Riot IX (Part Two)
+║   ├── A.Artist: PBR Streetgang
+║   ├── Año:      2020
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    EP / Official
+║   ├── Country:          XW
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    d90bbfb0-6679-434d-80f0-a6b51ea2ea65
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       2ESda6WSWpeTU3vHprZQYX
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 122 - Pahm (Paresse Remix) - Medusa Odyssey .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Pahm - Paresse Remix
+║   ├── Artista:  Medusa Odyssey, Paresse
+║   ├── Álbum:    Pahm
+║   ├── A.Artist: Medusa Odyssey
+║   ├── Año:      2019
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          XW
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    385f36cc-9c8a-4514-b0b6-9741b01ada34
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       7kaplY9YDLowl6e7jCvsv5
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Buscando 'Amazonia - Victor Schaeffer, Alejandro Molinari' en Discogs...
+  -> [Enrichment] Spotify Dual Query: 'Tchoukar Juanito' / 'Juanito Tchoukar'
+     [Scoring] 'Juanito - Tchoukar' | Normal=0.00 Swap=1.00 Final=1.00
+     [Scoring] 'Juanito - No Joy' | Normal=0.00 Swap=0.60 Final=0.60
+     [Scoring] 'Los Graduados, Gustavo Quintero - Juanito Preguntón' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Gustavo Quintero, Los Graduados - Juanito Preguntón' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Juanito - Tchoukar' | Normal=0.00 Swap=1.00 Final=1.00
+     [Scoring] 'Juanito - No Joy' | Normal=0.00 Swap=0.60 Final=0.60
+     [Scoring] 'Héctor Lavoe, Willie Colón - Juanito Alimaña' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Los Graduados, Gustavo Quintero - Juanito Preguntón' | Normal=0.54 Swap=0.00 Final=0.54
+  -> [Enrichment] Spotify Match: Tchoukar - Tchoukar (2022)
+     -> Recuperado Album: Tchoukar
+     -> Recuperado Año: 2022
+     -> Identidad Corregida: Juanito - Tchoukar
+     -> [Rescue Loop] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Juanito - Tchoukar' en Discogs...
+  -> [Enrichment] Buscando 'Green & Colors Like It - Redford, Kyrill, Ted Dade' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Buscando 'Rock It 2022 - Deecross' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Victor Schaeffer Alejandro Molinari')...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Deecross')...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Tchoukar')...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Redford Kyrill Ted Dade')...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Spotify Dual Query: 'Amazonia Victor Schaeffer, Alejandro Molinari' / 'Victor Schaeffer, Alejandro Molinari Amazonia'
+     [Scoring] 'Dengue Dengue Dengue, Toy Selectah, Branko - Amazonia' | Normal=0.00 Swap=0.40 Final=0.40
+     [Scoring] 'Alejandro Santos - Uno para el otro' | Normal=0.00 Swap=0.12 Final=0.12
+     [Scoring] 'Dengue Dengue Dengue, Toy Selectah, Branko - Amazonia' | Normal=0.00 Swap=0.40 Final=0.40
+  -> [Enrichment] Spotify Match: Amazonia - Siete Raices (2016)
+     -> Recuperado Album: Siete Raices
+     -> Recuperado Año: 2016
+     -> [Rescue Loop] Faltan datos (Label/Cat). Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Amazonia - Victor Schaeffer, Alejandro Molinari' en Discogs...
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Deecross - Rock It 2022
+     -> Label encontrado: Exx Underground
+     -> [Authority] Discogs Authority Confirmed (Label: Exx Underground, Cat: EU061)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 23627309)...
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 130 - Tchoukar (Original Mix) - Juanito .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Tchoukar
+║   ├── Artista:  Juanito
+║   ├── Álbum:    Tchoukar
+║   ├── A.Artist: 
+║   ├── Año:      2022
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       7J6nTcwYrcLu1eUyecydJD
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Kyrill & Redford Feat. Ted Dade - Green & Colors Like It
+     -> Label encontrado: Spirit Soul Records
+     -> [Authority] Discogs Authority Confirmed (Label: Spirit Soul Records, Cat: SSR044)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 35175292)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+     -> Deep Fetch Exitoso: 1 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Deecross Rock It 2022' / 'Rock It 2022 Deecross'
+     [Scoring] 'Deecross - Rock It 2022' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Deecross - Rock It 2022' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Deecross - Rock It 2022' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Deecross - Rock It 2022' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Deecross - Rock It 2022' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'DeeWunn, Marcy Chin - Mek It Bunx Up (feat. Marcy Chin)' | Normal=0.07 Swap=0.00 Final=0.07
+  -> [Enrichment] Spotify Match: Rock It 2022 - Rock It 2022 (2022)
+
+╔══ [AUDITORÍA PROFUNDA] 8A - 120 - Rock It 2022 - Deecross .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Rock It 2022
+║   ├── Artista:  Deecross
+║   ├── Álbum:    Rock It 2022
+║   ├── A.Artist: 
+║   ├── Año:      2022
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Exx Underground
+║   ├── Catálogo:         EU061
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Tech House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   23627309
+║   ├── Spotify ID:       0jZBlaeWImd4N7TiYqXEuk
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe (feat. Jem Cooke) - Dark Matter Edit' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe (feat. Jem Cooke) - Dark Matter Edit' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe - Cristoph Remix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe - CamelPhat Just Chill Mix' | Normal=0.90 Swap=0.36 Final=0.90
+[Strict] Match descartado por duración: Local=434.1s vs Match=194.2s (Diff=239.9s)
+     -> Deep Fetch Exitoso: 1 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Redford Green & Colors Like It' / 'Green & Colors Like It Redford'
+     [Scoring] 'Kyrill & Redford, David Read - Green & Colors Like It' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'Kyrill & Redford, David Read, Dragon Suplex - Green & Colors Like It - Dragon Suplex Remix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Coeo - Like It Is' | Normal=0.24 Swap=0.00 Final=0.24
+     [Scoring] 'Kyrill & Redford, David Read - Green & Colors Like It' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'Kyrill & Redford, David Read, Dragon Suplex - Green & Colors Like It - Dragon Suplex Remix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Dever, Mosta Man, Seven Plom - Green Moon' | Normal=0.12 Swap=0.00 Final=0.12
+  -> [Enrichment] Spotify Match: Green & Colors Like It - Green & Colors Like It (2014)
+     -> Identidad Corregida: Kyrill & Redford, David Read - Green & Colors Like It
+     -> [Rescue Loop] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Kyrill & Redford, David Read - Green & Colors Like It' en Discogs...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Victor Schaeffer Alejandro Molinari')...
+  -> [Enrichment] Buscando 'Frozen - Puka, In and Out' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Buscando 'CamelPhat - Breathe' en Discogs...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Green Colors Like It')...
+  -> [Enrichment] Asignando Género por defecto: Electronic
+  -> MATCH DESCARTADO (Confianza Baja 0.40): 8A - 120 - Amazonia (Original Mix) - Victor Schaeffer, Alejandro Molinari .mp3
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Puka In and Out')...
+  -> [Enrichment] Discogs Match: CamelPhat X Cristoph (2) Feat. Jem Cooke - Breathe (Eric Prydz Remix)
+     -> Label encontrado: Ministry Of Sound
+     -> [Authority] Discogs Authority Confirmed (Label: Ministry Of Sound, Cat: G010004083775G)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 14119085)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+     -> Deep Fetch Exitoso: 2 estilos.
+  -> [Enrichment] Spotify Dual Query: 'CamelPhat Breathe' / 'Breathe CamelPhat'
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe (feat. Jem Cooke) - Dark Matter Edit' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe (feat. Jem Cooke) - Dark Matter Edit' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'CamelPhat, Elderbrook, ARTBAT - Cola - ARTBAT Remix' | Normal=0.36 Swap=0.00 Final=0.36
+     [Scoring] 'CamelPhat, Elderbrook - Cola' | Normal=0.36 Swap=0.00 Final=0.36
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe (feat. Jem Cooke) - Dark Matter Edit' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'CamelPhat, Cristoph, Jem Cooke - Breathe - CamelPhat Just Chill Mix' | Normal=0.90 Swap=0.36 Final=0.90
+     [Scoring] 'CamelPhat, Elderbrook, ARTBAT - Cola - ARTBAT Remix' | Normal=0.36 Swap=0.00 Final=0.36
+     [Scoring] 'CamelPhat, Elderbrook - Cola' | Normal=0.36 Swap=0.00 Final=0.36
+  -> [Enrichment] Spotify Match: Breathe - Breathe (2018)
+     -> Identidad Corregida: CamelPhat, Cristoph, Jem Cooke - Breathe
+     -> [Rescue Loop] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'CamelPhat, Cristoph, Jem Cooke - Breathe' en Discogs...
+
+╔══ [AUDITORÍA PROFUNDA] 8A - 120 - Green & Colors Like It (Original Mix) - Redford, Kyrill, Ted Dade .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Green & Colors Like It
+║   ├── Artista:  Kyrill & Redford, David Read
+║   ├── Álbum:    Green & Colors Like It
+║   ├── A.Artist: 
+║   ├── Año:      2014
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Spirit Soul Records
+║   ├── Catálogo:         SSR044
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   35175292
+║   ├── Spotify ID:       4MMBk1SUrEsmu0Td9iBbLB
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Spotify Dual Query: 'Frozen Puka, In and Out' / 'Puka, In and Out Frozen'
+     [Scoring] 'In And Out, Puka - Frozen - Original Mix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Lyicaup - Frozen Pulse' | Normal=0.00 Swap=0.36 Final=0.36
+     [Scoring] 'Why U So - Frozen' | Normal=0.00 Swap=0.40 Final=0.40
+     [Scoring] 'In And Out, Puka - Frozen - Original Mix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Why U So - Frozen' | Normal=0.00 Swap=0.40 Final=0.40
+     [Scoring] 'Los Puros Beatz - FROZEN CITY' | Normal=0.00 Swap=0.36 Final=0.36
+  -> [Enrichment] Spotify Match: Frozen - Original Mix - Frozen (2014)
+     -> Recuperado Album: Frozen
+     -> Recuperado Año: 2014
+     -> Identidad Corregida: In And Out, Puka - Frozen - Original Mix
+     -> [Rescue Loop] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'In And Out, Puka - Frozen - Original Mix' en Discogs...
+  -> [Enrichment] Buscando 'Cut My Hair (Kalyde Remix) - Simon Shaw' en Discogs...
+  -> [Enrichment] Discogs Match: CamelPhat X Cristoph (2) Feat. Jem Cooke - Breathe (Cristoph Remix)
+     -> [Authority] Discogs Authority Confirmed (Label: Ministry Of Sound, Cat: G010004083775G)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 14179846)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+     -> Deep Fetch Exitoso: 1 estilos.
+     -> Deep Fetch Créditos: M=True Mx=True R=True
+
+╔══ [AUDITORÍA PROFUNDA] 8A - 125 - Breathe (Club Mix) - CamelPhat, Jem Cooke, Cristoph .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Breathe
+║   ├── Artista:  CamelPhat, Cristoph, Jem Cooke
+║   ├── Álbum:    Serious Beats 91
+║   ├── A.Artist: CamelPhat
+║   ├── Año:      2019
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Ministry Of Sound
+║   ├── Catálogo:         G010004083775G
+║   ├── Formato:          CD
+║   ├── Estilos (Styles): Progressive House
+║   ├── Type / Status:    Album / Official
+║   ├── Country:          BE
+║   ├── ISRC:             ---
+║   ├── Remixer:          Cristoph (2)
+║   ├── Mastered By:      Kevin Grainger
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    c9341d0d-9d14-4211-a6f4-f064639cb5e4
+║   ├── Discogs Rel ID:   14179846
+║   ├── Spotify ID:       6TR0FGw4zhlGbQALN065AI
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Buscando 'David Penn - Our Darkness (original)' en Discogs...
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Frozen')...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Simon Shaw')...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Discogs Match: David Penn & Rober Gaez - Our Darkness
+     -> Label encontrado: Urbana Recordings
+     -> [Authority] Discogs Authority Confirmed (Label: Urbana Recordings, Cat: URBANA039)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 1695800)...
+[Aviso] Discogs falló (Artista diferente: 'None' vs 'Paolo Rocco, Wayne Tennant, Ohmme'), usando metadatos de Spotify como definitivo.
+  -> [Enrichment] Buscando 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' en Discogs...
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 8A - 124 - Frozen (Original Mix) - Puka, In and Out .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Frozen - Original Mix
+║   ├── Artista:  In And Out, Puka
+║   ├── Álbum:    Frozen
+║   ├── A.Artist: 
+║   ├── Año:      2014
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       1xjGb45nANJUyzKYf1UPm9
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Spotify Dual Query: 'Cut My Hair Simon Shaw' / 'Simon Shaw Cut My Hair'
+     [Scoring] 'Helsloot - Let's Pretend - Extended Mix' | Normal=0.70 Swap=0.00 Final=0.70
+[Strict] Match descartado por baja confianza (0.70 < 0.9)
+     [Scoring] 'Simon Shaw, Kalyde - Cut My Hair - Kalyde Remix' | Normal=0.00 Swap=0.90 Final=0.90
+     [Scoring] 'Simon Shaw - Cut My Hair' | Normal=0.00 Swap=1.00 Final=1.00
+     [Scoring] 'AZOG - Cut My Hair' | Normal=0.00 Swap=0.40 Final=0.40
+     [Scoring] 'Simon Shaw - Cut My Hair' | Normal=0.00 Swap=1.00 Final=1.00
+     [Scoring] 'Simon Shaw, Kalyde - Cut My Hair - Kalyde Remix' | Normal=0.00 Swap=0.90 Final=0.90
+     [Scoring] 'Simon Oshun - Tengo pa fumar' | Normal=0.00 Swap=0.20 Final=0.20
+  -> [Enrichment] Spotify Match: Cut My Hair - Cut My Hair (2018)
+     -> Recuperado Album: Cut My Hair
+     -> Recuperado Año: 2018
+     -> Identidad Corregida: Simon Shaw - Cut My Hair
+     -> [Rescue Loop] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Simon Shaw - Cut My Hair' en Discogs...
+     -> Deep Fetch Exitoso: 2 estilos.
+  -> [Enrichment] Spotify Dual Query: 'David Penn Our Darkness' / 'Our Darkness David Penn'
+     [Scoring] 'David Penn - Our Darkness' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'David Penn, Rober Gaez - Our Darkness' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'David Penn, Rober Gaez - Darkness' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'David Penn - Our Darkness' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'David Penn, Rober Gaez - Our Darkness' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'Ziggan - Darkness' | Normal=0.54 Swap=0.00 Final=0.54
+  -> [Enrichment] Spotify Match: Our Darkness - Star 69 PresentsTake Me Higher (2011)
+     -> Identidad Corregida: David Penn - Our Darkness
+     -> [Rescue Loop] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'David Penn - Our Darkness' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Discogs Match: David Penn & Rober Gaez - Our Darkness
+     -> [Authority] Discogs Authority Confirmed (Label: Urbana Recordings, Cat: URBANA039)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 1695800)...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Caution You Ohmme Remix')...
+  -> [Enrichment] Buscando 'Helsloot - Lets Pretend (Extended Mix)' en Discogs...
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Cut My Hair')...
+     -> Deep Fetch Exitoso: 2 estilos.
+
+╔══ [AUDITORÍA PROFUNDA] 9A - 121 - I Lift My Hands (Original Mix) - David Penn, Rae, Rober Gaez .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Our Darkness
+║   ├── Artista:  David Penn
+║   ├── Álbum:    Our Darkness
+║   ├── A.Artist: David Penn
+║   ├── Año:      2009
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Urbana Recordings
+║   ├── Catálogo:         URBANA039
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): Tech House, House
+║   ├── Type / Status:    Single / Official
+║   ├── Country:          ES
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    b09c41f6-50b4-4d26-95e2-c4b12010444d
+║   ├── Discogs Rel ID:   1695800
+║   ├── Spotify ID:       70DBcVOB3xMTBOwkyw4kL1
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Spotify Dual Query: 'Paolo Rocco Caution You - Ohmme Remix' / 'Caution You - Ohmme Remix Paolo Rocco'
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Campidelli, Leo Cavada - Banto' | Normal=0.08 Swap=0.00 Final=0.08
+     [Scoring] 'Paolo Rocco, Wayne Tennant, John Acquaviva, Olivier Giacomotto - Caution You - John Acquaviva & Olivier Giacomotto Remix' | Normal=0.58 Swap=0.00 Final=0.58
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+     [Scoring] 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' | Normal=0.96 Swap=0.07 Final=0.96
+  -> [Enrichment] Spotify Match: Caution You - Ohmme Remix - Caution You (2014)
+     -> [Rescue Loop] Faltan datos (Label/Cat). Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Paolo Rocco, Wayne Tennant, Ohmme - Caution You - Ohmme Remix' en Discogs...
+  -> [Enrichment] Discogs Match: Helsloot - Never Tried
+     -> Label encontrado: Get Physical Music
+     -> [Authority] Discogs Authority Confirmed (Label: Get Physical Music, Cat: GPMLP295)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 30976096)...
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 8B - 124 - Cut My Hair (Kalyde Remix) - Simon Shaw .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Cut My Hair
+║   ├── Artista:  Simon Shaw
+║   ├── Álbum:    Cut My Hair
+║   ├── A.Artist: 
+║   ├── Año:      2018
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       6diuneabwpwvgxU5iGVfQg
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+     -> Deep Fetch Exitoso: 3 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Helsloot Lets Pretend' / 'Lets Pretend Helsloot'
+     [Scoring] 'Helsloot - Let's Pretend' | Normal=0.55 Swap=0.00 Final=0.55
+     [Scoring] 'Helsloot - Let's Pretend' | Normal=0.55 Swap=0.00 Final=0.55
+     [Scoring] 'Helsloot - Let's Pretend - Extended Mix' | Normal=0.50 Swap=0.00 Final=0.50
+     [Scoring] 'Helsloot - Let's Pretend' | Normal=0.55 Swap=0.00 Final=0.55
+     [Scoring] 'Helsloot - Let's Pretend' | Normal=0.55 Swap=0.00 Final=0.55
+     [Scoring] 'Helsloot - Let's Pretend - Extended Mix' | Normal=0.50 Swap=0.00 Final=0.50
+  -> [Enrichment] Spotify Match: Let's Pretend - Never Tried (2024)
+
+╔══ [AUDITORÍA PROFUNDA] 9A - 124 - Lets Pretend (Extended Mix) - Helsloot .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Lets Pretend (Extended Mix)
+║   ├── Artista:  Helsloot
+║   ├── Álbum:    Let's Pretend
+║   ├── A.Artist: Helsloot
+║   ├── Año:      2022
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Get Physical Music
+║   ├── Catálogo:         GPMLP295
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): Minimal, Neo Trance, House
+║   ├── Type / Status:    Single / Official
+║   ├── Country:          XW
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    eec104ad-2695-48b4-84be-7f0e7fb3fb82
+║   ├── Discogs Rel ID:   30976096
+║   ├── Spotify ID:       6nAiTDFQHYwkcjIPnpf2Ay
+║   ├── Fuente:           0.55 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Rescue] Activando Búsq. Desesperada (Solo Título: 'Caution You Ohmme Remix')...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 9A - 123 - Caution You feat. Wayne Tennant (Ohmme Remix) - Paolo Rocco .mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Caution You - Ohmme Remix
+║   ├── Artista:  Paolo Rocco, Wayne Tennant, Ohmme
+║   ├── Álbum:    Caution You
+║   ├── A.Artist: Paolo Rocco
+║   ├── Año:      2014
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Single / Official
+║   ├── Country:          XW
+║   ├── ISRC:             DEBE71400297
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    8ff1d3c8-33a0-47f4-a8b4-049be6ddc31d
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       0bV2cQDVztW1sJTxUbZgHH
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.

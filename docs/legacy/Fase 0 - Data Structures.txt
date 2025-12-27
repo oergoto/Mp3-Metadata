@@ -1,0 +1,164 @@
+from dataclasses import dataclass, field
+from typing import List, Optional, Dict
+from enum import Enum
+from datetime import date
+
+# ==============================================================================
+# 1. CONSTANTES DE MAPEO TXXX (CUSTOM TAGS)
+# ==============================================================================
+# Estas son las claves EXACTAS que se escribirán en el campo TXXX del MP3.
+# Ejemplo: TXXX:DISCOGS_CATALOG_NUMBER = "FAC 51"
+
+class TXXXKeys:
+    # Identificadores Únicos
+    MB_TRACK_ID = "MusicBrainz Track Id"
+    MB_RELEASE_ID = "MusicBrainz Release Id"
+    MB_ARTIST_ID = "MusicBrainz Artist Id"
+    MB_WORK_ID = "MusicBrainz Work Id"
+    DISCOGS_RELEASE_ID = "Discogs Release Id"
+    DISCOGS_MASTER_ID = "Discogs Master Id"
+    ACOUSTID_ID = "AcoustID"
+    SPOTIFY_ID = "Spotify Track Id"
+    
+    # Datos Editoriales & Catálogo
+    CATALOG_NUMBER = "Catalog Number"
+    RELEASE_TYPE = "Release Type"      # Album, Single, EP, Compilation
+    RELEASE_STATUS = "Release Status"  # Official, Bootleg, Promo
+    MEDIA_FORMAT = "Media Format"      # Vinyl, Digital, CD
+    COUNTRY = "Release Country"
+    STYLE = "Genre Style"              # Sub-géneros específicos (Deep House, Detroit Techno)
+    LABEL_URL = "Label Url"
+    
+    # Créditos Extendidos
+    MASTERED_BY = "Mastered By"
+    MIXED_BY = "Mixed By"
+    
+    # Audio Analysis (Spotify / Sonic Analysis)
+    ENERGY = "Audio Energy"            # 0.0 - 1.0
+    DANCEABILITY = "Audio Danceability"# 0.0 - 1.0
+    VALENCE = "Audio Valence"          # 0.0 - 1.0 (Mood)
+    POPULARITY = "Spotify Popularity"  # 0 - 100
+    EXPLICIT = "Explicit Content"      # True/False
+    
+    # Sistema
+    SOURCE = "Metadata Source"         # Ej: "Automated Pipeline v1.0"
+    MATCH_METHOD = "Match Method"      # Ej: "AcoustID", "Exact Filename", "Fuzzy"
+
+# ==============================================================================
+# 2. ENUMS (Vocabulario Controlado)
+# ==============================================================================
+
+class ReleaseGroupType(Enum):
+    ALBUM = "Album"
+    SINGLE = "Single"
+    EP = "EP"
+    COMPILATION = "Compilation"
+    REMIX = "Remix"
+    DJMIX = "DJ-mix"
+    MIXTAPE = "Mixtape"       # Común en Hip-Hop y música urbana
+    LIVE = "Live"             # Grabaciones de conciertos
+    SOUNDTRACK = "Soundtrack" # OSTs
+    DEMO = "Demo"             # Grabaciones no finales
+    BROADCAST = "Broadcast"   # Radio shows / Podcasts
+    OTHER = "Other"
+
+class ReleaseStatus(Enum):
+    OFFICIAL = "Official"
+    PROMOTION = "Promotion"
+    BOOTLEG = "Bootleg"       # Incluye "Unofficial" de Discogs
+    PSEUDO_RELEASE = "Pseudo-Release"
+    WITHDRAWN = "Withdrawn"   # Lanzamientos retirados del mercado
+    CANCELLED = "Cancelled"   # Planeados pero nunca lanzados
+    WHITE_LABEL = "White Label" # Específico para vinilos de prueba/DJ
+
+class MediaFormat(Enum):
+    """Crucial para diferenciar Masterización (Vinyl Rip vs Web DL)."""
+    VINYL = "Vinyl"           # Incluye 12", 7", LP
+    CD = "CD"                 # Incluye CDr, CD-Single
+    DIGITAL = "Digital Media" # WEB, File, AIFF, WAV, MP3
+    CASSETTE = "Cassette"
+    DVD = "DVD"
+    SACD = "SACD"
+    OTHER = "Other"
+
+# ==============================================================================
+# 3. DATACLASSES (Estructura de Datos)
+# ==============================================================================
+
+@dataclass
+class ExternalIDs:
+    """Almacena todos los IDs foráneos para cruzar bases de datos."""
+    musicbrainz_track_id: Optional[str] = None
+    musicbrainz_release_id: Optional[str] = None
+    musicbrainz_artist_id: Optional[str] = None
+    discogs_release_id: Optional[int] = None
+    discogs_master_id: Optional[int] = None
+    spotify_id: Optional[str] = None
+    acoustid_fingerprint: Optional[str] = None
+    isrc: Optional[str] = None
+
+@dataclass
+class AudioFeatures:
+    """Datos psicoacústicos (principalmente de Spotify)."""
+    # Se eliminaron BPM y KEY por decisión de diseño (Fase 4 - Audio Analysis Exclusion)
+    energy: Optional[float] = None    # TXXX:Audio Energy
+    danceability: Optional[float] = None
+    valence: Optional[float] = None
+    popularity: Optional[int] = None  # 0-100
+    is_explicit: bool = False
+    duration_ms: Optional[int] = None
+
+@dataclass
+class EditorialMetadata:
+    """Datos enriquecidos de catálogo (Discogs/MB)."""
+    publisher: Optional[str] = None   # TPUB (Label)
+    catalog_number: Optional[str] = None # TXXX:Catalog Number
+    release_date: Optional[str] = None # TDRC / TYER (YYYY-MM-DD)
+    country: Optional[str] = None
+    media_format: Optional[MediaFormat] = None # Ahora usa el Enum estricto
+    release_type: ReleaseGroupType = ReleaseGroupType.OTHER
+    release_status: ReleaseStatus = ReleaseStatus.OFFICIAL
+    styles: List[str] = field(default_factory=list) # TXXX:Style
+    credits_remixer: Optional[str] = None # TPE4
+    credits_mastering: Optional[str] = None 
+
+@dataclass
+class UnifiedTrackData:
+    """
+    OBJETO MAESTRO.
+    Representa un archivo MP3 completamente normalizado y listo para escribir.
+    """
+    # 1. Identidad Básica (ID3 Core)
+    title: str                  # TIT2
+    artist_main: str            # TPE1
+    album: str                  # TALB
+    album_artist: str           # TPE2 (Crucial para Various Artists)
+    genre_main: str             # TCON
+    track_number: str           # TRCK (ej "1/4")
+    disc_number: str            # TPOS (ej "1/1")
+    year: str                   # TYER (YYYY)
+    
+    # 2. Módulos Específicos
+    ids: ExternalIDs = field(default_factory=ExternalIDs)
+    editorial: EditorialMetadata = field(default_factory=EditorialMetadata)
+    audio: AudioFeatures = field(default_factory=AudioFeatures)
+    
+    # 3. Datos de Sistema
+    filepath_original: str = ""
+    filename_new: str = ""      # Propuesta de renombrado
+    match_confidence: float = 0.0 # 0.0 a 1.0 (Semáforo)
+    
+    def get_primary_image_url(self) -> Optional[str]:
+        """Lógica para decidir qué cover art usar (MB > Discogs > Local)."""
+        # Placeholder para implementación futura
+        return None
+
+    def to_dict(self) -> Dict:
+        """Serialización segura para guardar en JSON/Mongo/SQLite."""
+        # Implementación simplificada
+        return {
+            "title": self.title,
+            "artist": self.artist_main,
+            "ids": self.ids.__dict__,
+            # ... resto de campos
+        }

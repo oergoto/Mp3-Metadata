@@ -1,0 +1,6 @@
+requests
+mutagen
+python-dotenv
+pyacoustid
+fuzzywuzzy
+python-Levenshtein

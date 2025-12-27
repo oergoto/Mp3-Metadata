@@ -1,0 +1,785 @@
+4285)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Kernel Key - Pass It On
+     -> Label encontrado: Loose Records
+     -> [Authority] Discogs Authority Confirmed (Label: Loose Records, Cat: LR020)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 3279496)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+     -> Deep Fetch Exitoso: 1 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Jay Lumen To Beat Or Not To Beat' / 'To Beat Or Not To Beat Jay Lumen'
+     [Scoring] 'Jay Lumen - To Beat Or Not To Beat' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Jay Lumen - Bang To The Beat' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Jay Lumen - X' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Jay Lumen - To Beat Or Not To Beat' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Jay Lumen - Bang To The Beat' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Jay Lumen - X' | Normal=0.40 Swap=0.00 Final=0.40
+  -> [Enrichment] Spotify Match: To Beat Or Not To Beat - B-Groove (2010)
+     -> Identidad Corregida: Jay Lumen - To Beat Or Not To Beat
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 126 - To Beat Or Not To Beat (Original Version) - Jay Lumen.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   To Beat Or Not To Beat
+║   ├── Artista:  Jay Lumen
+║   ├── Álbum:    B-Groove
+║   ├── A.Artist: 
+║   ├── Año:      2010
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Bitten
+║   ├── Catálogo:         bitt003
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Tech House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   2244285
+║   ├── Spotify ID:       0XUjjcWUqJKYCWd9WvuO04
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Sebastien Leger* - Napolitain
+     -> Label encontrado: Form Music
+     -> [Authority] Discogs Authority Confirmed (Label: Form Music, Cat: FORMD27)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 4794744)...
+     [Scoring] 'DJ Wady, Patrick M - Hulk - Camelphat 2017 Re-Fix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Wady, Patrick M, DJ Tusso, Maurik - Hulk - Maurik, Tusso Remix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Wady, Patrick M - Hulk' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'DJ Wady, Patrick M, Erik Hagleton, CamelPhat - No Time for Hulk - Camelphat Re-Fix - (Erik Hagleton 2018 Vocal Edit) - Radio Edit' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Wady, Patrick M, DJ Tusso, Maurik - Hulk - Maurik, Tusso Remix - Extended Mix' | Normal=0.90 Swap=0.00 Final=0.90
+     -> Deep Fetch Exitoso: 1 estilos.
+     -> Deep Fetch Créditos: M=True Mx=False R=False
+  -> [Enrichment] Spotify Dual Query: 'Kernel Key Lady Red' / 'Lady Red Kernel Key'
+     [Scoring] 'Kernel Key - Lady Red' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Kenny Rogers - Lady' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Dice - MY LADY' | Normal=0.20 Swap=0.00 Final=0.20
+     [Scoring] 'Kernel Key - Lady Red' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Raulin Rosendo - Lady Laura' | Normal=0.20 Swap=0.00 Final=0.20
+     [Scoring] 'Dice - MY LADY' | Normal=0.20 Swap=0.00 Final=0.20
+  -> [Enrichment] Spotify Match: Lady Red - Pass It On (2011)
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 127 - Lady Red - Kernel Key.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Lady Red
+║   ├── Artista:  Kernel Key
+║   ├── Álbum:    Pass It On
+║   ├── A.Artist: 
+║   ├── Año:      2011
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Loose Records
+║   ├── Catálogo:         LR020
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Techno
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      Gregor Zemljič
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   3279496
+║   ├── Spotify ID:       34o4ItYtdGtdTJpf7j0klk
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 126 - Sensity (Original Mix) - Juanmy R.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Sensity (Original Mix)
+║   ├── Artista:  Juanmy.R
+║   ├── Álbum:    Winter Songs Review
+║   ├── A.Artist: 
+║   ├── Año:      2011
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       0kBujgqJvTsZ9BDxRACehQ
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     -> Deep Fetch Exitoso: 2 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Sebastien Leger Napolitain' / 'Napolitain Sebastien Leger'
+     [Scoring] 'Sébastien Léger - Napolitain' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Sébastien Léger - After That' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Sébastien Léger - Napolitain (Original Mix) - Best Of 2012' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Sébastien Léger - Nations' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Sébastien Léger - Ashes in the Wind' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Sébastien Léger - Napolitain' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Sébastien Léger - After That' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Sébastien Léger - Napolitain (Original Mix) - Best Of 2012' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Sébastien Léger - Nations' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Sébastien Léger - Ashes in the Wind' | Normal=0.40 Swap=0.00 Final=0.40
+  -> [Enrichment] Spotify Match: Napolitain - Napolitain (2012)
+     -> Identidad Corregida: Sébastien Léger - Napolitain
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 127 - Napolitain (Original Mix) - Sebastien Leger.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Napolitain
+║   ├── Artista:  Sébastien Léger
+║   ├── Álbum:    Napolitain
+║   ├── A.Artist: 
+║   ├── Año:      2012
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Form Music
+║   ├── Catálogo:         FORMD27
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Tech House, Techno
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   4794744
+║   ├── Spotify ID:       3qzoKdOWfUex8iYBDwpOrD
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     [Scoring] 'DJ Q - Superclique' | Normal=1.00 Swap=0.00 Final=1.00
+[Aviso] Discogs falló (Artista diferente: 'None' vs 'DJ Wady, Patrick M'), usando metadatos de Spotify como definitivo.
+  -> [Enrichment] Buscando 'DJ Wady, Patrick M - Hulk' en Discogs...
+  -> [Enrichment] Buscando 'Sébastien Léger - Jaguar' en Discogs...
+  -> [Enrichment] Buscando 'You Came - Candy Warhol' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+[Aviso] Discogs falló (Artista diferente: 'None' vs 'DJ Q'), usando metadatos de Spotify como definitivo.
+  -> [Enrichment] Buscando 'DJ Q - Superclique' en Discogs...
+  -> [Enrichment] Discogs Match: Sébastien Léger - Jaguar
+     -> Label encontrado: Mistakes Music
+     -> [Authority] Discogs Authority Confirmed (Label: Mistakes Music, Cat: MIS005)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 1289314)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Discogs Match: DJ Wady & Patrick M - Hulk
+     -> Label encontrado: Cr2 Records
+     -> [Authority] Discogs Authority Confirmed (Label: Cr2 Records, Cat: ITC2X 079)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 3593108)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+     -> Deep Fetch Exitoso: 1 estilos.
+     -> Deep Fetch Créditos: M=False Mx=True R=False
+  -> [Enrichment] Spotify Dual Query: 'Sébastien Léger Jaguar' / 'Jaguar Sébastien Léger'
+     [Scoring] 'Sébastien Léger - Omira' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Sébastien Léger - Lanarka' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'The Astec Mystic - Jaguar' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Sébastien Léger - Omira' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Sébastien Léger - Lanarka' | Normal=0.40 Swap=0.00 Final=0.40
+  -> [Enrichment] Spotify Match: Jaguar - Submerge Vol.1:Detroit Techno (2008)
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 128 - Jaguar - Sebastien Leger.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Jaguar
+║   ├── Artista:  Sébastien Léger
+║   ├── Álbum:    Jaguar
+║   ├── A.Artist: Sébastien Léger
+║   ├── Año:      2008
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Mistakes Music
+║   ├── Catálogo:         MIS005
+║   ├── Formato:          Vinyl
+║   ├── Estilos (Styles): Tech House
+║   ├── Type / Status:    Single / Official
+║   ├── Country:          GB
+║   ├── ISRC:             GBCEN1602861
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    8c9ae080-e06b-4fae-8027-4072ec50c9fb
+║   ├── Discogs Rel ID:   1289314
+║   ├── Spotify ID:       648R7nEhGZIpZ0zVHJteRF
+║   ├── Fuente:           0.6 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Candy Warhol - You Came
+     -> Label encontrado: Le Bien Et Le Mal
+     -> [Authority] Discogs Authority Confirmed (Label: Le Bien Et Le Mal, Cat: BIEN 036)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 14883227)...
+     -> Deep Fetch Exitoso: 1 estilos.
+  -> [Enrichment] Spotify Dual Query: 'DJ Wady Hulk' / 'Hulk DJ Wady'
+     [Scoring] 'DJ Wady, Patrick M - Hulk - Camelphat 2017 Re-Fix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Wady, Patrick M, DJ Tusso, Maurik - Hulk - Maurik, Tusso Remix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Wady, Patrick M - Hulk - Camelphat 2017 Re-Fix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Wady, Patrick M, DJ Tusso, Maurik - Hulk - Maurik, Tusso Remix' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'DJ Dever, Hector Nazza - Mocca' | Normal=0.08 Swap=0.00 Final=0.08
+  -> [Enrichment] Spotify Match: Hulk - Camelphat 2017 Re-Fix - Hulk (Camelphat 2017 Re-Fix) (2017)
+     -> Identidad Corregida: DJ Wady, Patrick M - Hulk - Camelphat 2017 Re-Fix
+  -> [Enrichment] Discogs Match: DJ Q - Superclique
+     -> Label encontrado: NRK Music
+     -> [Authority] Discogs Authority Confirmed (Label: NRK Music, Cat: none)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 28675129)...
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 128 - Hulk - Patrick M and Dj Wady.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Hulk - Camelphat 2017 Re-Fix
+║   ├── Artista:  DJ Wady, Patrick M
+║   ├── Álbum:    Deep House Pool Party
+║   ├── A.Artist: DJ Wady
+║   ├── Año:      2014
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Cr2 Records
+║   ├── Catálogo:         ITC2X 079
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): Tech House
+║   ├── Type / Status:    Album / Official
+║   ├── Country:          ---
+║   ├── ISRC:             GBHAD0800040
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    a93d3c39-7495-40ac-a7b9-1e0f0b2726d0
+║   ├── Discogs Rel ID:   3593108
+║   ├── Spotify ID:       1wh2jUEd9keQCCzGi24VoP
+║   ├── Fuente:           0.9000000000000001 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     -> Deep Fetch Exitoso: 2 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Candy Warhol You Came' / 'You Came Candy Warhol'
+     [Scoring] 'Candy Warhol - You Came' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Candy Warhol - You Came - Club Mix' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'GallerIA Music - Candy (Galleria Soul 1950)' | Normal=0.00 Swap=0.08 Final=0.08
+     [Scoring] 'Candy Warhol - You Came - Club Mix' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Candy Warhol - You Came' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'GallerIA Music - Candy (Galleria Soul 1950)' | Normal=0.00 Swap=0.08 Final=0.08
+  -> [Enrichment] Spotify Match: You Came - You Came (2004)
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 128 - You Came (Original Mix) - Candy Warhol.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   You Came
+║   ├── Artista:  Candy Warhol
+║   ├── Álbum:    You Came
+║   ├── A.Artist: 
+║   ├── Año:      2004
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Le Bien Et Le Mal
+║   ├── Catálogo:         BIEN 036
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): House, Euro-Disco
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   14883227
+║   ├── Spotify ID:       4BAsuQGGIEyoRgslwXXhIr
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+     [Scoring] 'Kim Jofferey, Natalie Konan, Chris Kaeser - Take Me There - Chris Kaeser Remix' | Normal=0.96 Swap=0.12 Final=0.96
+     [Scoring] 'Soulsearcher, Illyus Barrientos  - Can't Get Enough! - Illyus & Barrentos Extended Club Refix' | Normal=0.84 Swap=0.12 Final=0.84
+     [Scoring] 'Soulsearcher, Illyus Barrientos  - Can't Get Enough! (Illyus & Barrientos Extended Club Refix) - Mixed' | Normal=0.90 Swap=0.12 Final=0.90
+     [Scoring] 'Soulsearcher, Illyus Barrientos  - Can't Get Enough! (Illyus & Barrientos Extended Club Refix) - Mixed' | Normal=0.90 Swap=0.12 Final=0.90
+     [Scoring] 'Soulsearcher, Illyus Barrientos  - Can't Get Enough! (Illyus & Barrientos Extended Club Refix) - Mixed' | Normal=0.90 Swap=0.12 Final=0.90
+     [Scoring] 'Soulsearcher, Illyus Barrientos  - Can't Get Enough! (Illyus & Barrientos Extended Club Refix) - Mixed' | Normal=0.90 Swap=0.12 Final=0.90
+[Strict] Match descartado por duración: Local=430.5s vs Match=263.2s (Diff=167.3s)
+     -> Deep Fetch Exitoso: 3 estilos.
+     -> Deep Fetch Créditos: M=False Mx=True R=False
+  -> [Enrichment] Spotify Dual Query: 'DJ Q Superclique' / 'Superclique DJ Q'
+     [Scoring] 'DJ Q - Blue Chicago' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'DJ Q - Superclique' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'DJ Q - Superclique' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'DJ Q - Blue Chicago' | Normal=0.40 Swap=0.00 Final=0.40
+     [Scoring] 'Dj Zombra RC - El Acelerao' | Normal=0.10 Swap=0.00 Final=0.10
+  -> [Enrichment] Spotify Match: Superclique - Superclique EP (2008)
+
+╔══ [AUDITORÍA PROFUNDA] 7A - 129 - Superclique (Original Mix) - Dj Q.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Superclique
+║   ├── Artista:  DJ Q
+║   ├── Álbum:    Deep Sensation 3
+║   ├── A.Artist: DJ Q
+║   ├── Año:      2010
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     NRK Music
+║   ├── Catálogo:         none
+║   ├── Formato:          CD
+║   ├── Estilos (Styles): House, Deep House, Tech House
+║   ├── Type / Status:    Album / Official
+║   ├── Country:          GB
+║   ├── ISRC:             GBHSF0800076
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    c9b83ee7-2168-4552-9c62-2cbc3c8fc513
+║   ├── Discogs Rel ID:   28675129
+║   ├── Spotify ID:       6VEwtmvm0yVYvRhtcpfIjD
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Buscando 'Shakenila (Roger Saints Remix) - Attackersound' en Discogs...
+[Aviso] Discogs falló (Artista diferente: 'None' vs 'Kim Jofferey, Natalie Konan, Chris Kaeser'), usando metadatos de Spotify como definitivo.
+  -> [Enrichment] Buscando 'Kim Jofferey, Natalie Konan, Chris Kaeser - Take Me There - Chris Kaeser Remix' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Buscando 'Soulsearcher - Can’t Get Enough! (Illyus & Barrientos extended club Refix)' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Buscando 'Unwritten (Hollen Remix) - Leon, Greenbeam' en Discogs...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Spotify Dual Query: 'Shakenila Attackersound' / 'Attackersound Shakenila'
+     [Scoring] 'Attackersound - Shakenila - Original Mix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Attackersound - Shakenila - Roger Saints Remix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Attackersound - Shakenila - Gb Hernandes Remix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Attackersound - Shakenila - Original Mix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Attackersound - Shakenila - Roger Saints Remix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Attackersound - Shakenila - Gb Hernandes Remix' | Normal=0.00 Swap=0.96 Final=0.96
+     [Scoring] 'Rise RX - Attack' | Normal=0.54 Swap=0.00 Final=0.54
+  -> [Enrichment] Spotify Match: Shakenila - Original Mix - Shakenila (2012)
+     -> Recuperado Album: Shakenila
+     -> Recuperado Año: 2012
+     -> Identidad Corregida: Attackersound - Shakenila - Original Mix
+     -> [Fix] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Attackersound - Shakenila - Original Mix' en Discogs...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Spotify Dual Query: 'Kim Jofferey Take Me There - Chris Kaeser Remix' / 'Take Me There - Chris Kaeser Remix Kim Jofferey'
+     [Scoring] 'Kim Jofferey, Natalie Konan, Chris Kaeser - Take Me There - Chris Kaeser Remix' | Normal=0.96 Swap=0.12 Final=0.96
+     [Scoring] 'Chris Schmidt - Take you there' | Normal=0.17 Swap=0.09 Final=0.17
+     [Scoring] 'Kim Jofferey, Natalie Konan, Chris Kaeser - Take Me There - Chris Kaeser Remix' | Normal=0.96 Swap=0.12 Final=0.96
+     [Scoring] 'Chris Schmidt - Take you there' | Normal=0.17 Swap=0.09 Final=0.17
+  -> [Enrichment] Spotify Match: Take Me There - Chris Kaeser Remix - D-Track's Music / Special Remix (2019)
+  -> [Enrichment] Asignando Género por defecto: Electronic
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+
+╔══ [AUDITORÍA PROFUNDA] 8A - 128 - Take me there (Chris Kaeser Remix) - Kim Jofferey & Natalie Konan.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Take Me There - Chris Kaeser Remix
+║   ├── Artista:  Kim Jofferey, Natalie Konan, Chris Kaeser
+║   ├── Álbum:    Take Me There
+║   ├── A.Artist: Kim Jofferey
+║   ├── Año:      2009
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Vinyl
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Single / Official
+║   ├── Country:          IT
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    a9d36338-0f8f-42c8-afca-f37454732197
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       5TcYoI936PoYhzYcVMUDSK
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+     [Scoring] 'Tomcraft - Boogie Nights (Like An Eagle) (Radio Edit)' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Tomcraft - Boogie Nights (Like An Eagle) (Original Mix)' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Tomcraft - Boogie Nights (Like An Eagle) (Lützenkirchen Remix)' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Tomcraft - Boogie Nights (Like an Eagle) - Lützenkirchen Remix' | Normal=0.94 Swap=0.00 Final=0.94
+[Strict] Match descartado por duración: Local=377.4s vs Match=204.6s (Diff=172.8s)
+  -> [Enrichment] Spotify Dual Query: 'Soulsearcher Can’t Get Enough!' / 'Can’t Get Enough! Soulsearcher'
+     [Scoring] 'Black Eyed Peas - Just Can’t Get Enough' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Soulsearcher - Can't Get Enough! - Vocal Club Mix' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Soulsearcher - Can't Get Enough' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Soulsearcher - Can't Get Enough! - Radio Edit' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Soulsearcher - Can't Get Enough! - Vocal Club Mix' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Black Eyed Peas - Just Can’t Get Enough' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Soulsearcher - Can't Get Enough! - Radio Edit' | Normal=0.94 Swap=0.00 Final=0.94
+  -> [Enrichment] Spotify Match: Can't Get Enough - Can't Get Enough (1998)
+     -> Identidad Corregida: Soulsearcher - Can't Get Enough
+     -> [Fix] Identidad cambió. Re-ejecutando Discogs para buscar Editorial...
+  -> [Enrichment] Buscando 'Soulsearcher - Can't Get Enough' en Discogs...
+     -> [Fix] Búsqueda Invertida EXITOSA. Corrigiendo Identidad...
+  -> [Enrichment] Discogs Match: Greenbeam & Leon -  Full Wagon EP
+     -> Label encontrado: MBD
+     -> [Authority] Discogs Authority Confirmed (Label: MBD, Cat: MBD028)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 27983910)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+     -> Deep Fetch Exitoso: 3 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Leon Unwritten' / 'Unwritten Leon'
+     [Scoring] 'rizki leonardo pro - Unwritten Love Story' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Leon Aigner - The Unwritten Happily Ever After' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Leonie, The Voice Kids - Germany - Unwritten (aus "The Voice Kids - Staffel 13") - Live' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Made Of Marble, Mingue - Unwritten' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Leon Leiden, Nanpa Básico - Ya No Se Mueve' | Normal=0.36 Swap=0.00 Final=0.36
+     [Scoring] 'rizki leonardo pro - Unwritten Love Story' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Leon Aigner - The Unwritten Happily Ever After' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Leonie, The Voice Kids - Germany - Unwritten (aus "The Voice Kids - Staffel 13") - Live' | Normal=0.90 Swap=0.00 Final=0.90
+     [Scoring] 'Leon Leiden, Nanpa Básico - Ya No Se Mueve' | Normal=0.36 Swap=0.00 Final=0.36
+     [Scoring] 'Leon Leiden, TIMØ - Modo Melancólico' | Normal=0.36 Swap=0.00 Final=0.36
+  -> [Enrichment] Spotify Match: Unwritten Love Story - Unwritten Love Story (2024)
+     -> Identidad Corregida: rizki leonardo pro - Unwritten Love Story
+
+╔══ [AUDITORÍA PROFUNDA] 9A - 127 - Unwritten (Hollen Remix) - Leon, Greenbeam.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Unwritten Love Story
+║   ├── Artista:  rizki leonardo pro
+║   ├── Álbum:     Full Wagon EP
+║   ├── A.Artist: 
+║   ├── Año:      2011
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MBD
+║   ├── Catálogo:         MBD028
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Minimal Techno, Techno, Tech House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   27983910
+║   ├── Spotify ID:       0ZuO4TLwYzTpDBJQjFbO8q
+║   ├── Fuente:           0.9000000000000001 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 8A - 127 - Shakenila (Roger Saints Remix) - Attackersound.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Shakenila - Original Mix
+║   ├── Artista:  Attackersound
+║   ├── Álbum:    Shakenila
+║   ├── A.Artist: 
+║   ├── Año:      2012
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       1WVsLPg33KBo3aFh6ZzkWn
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Buscando 'Tomcraft - Boogie Nights (Like an Eagle)' en Discogs...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Discogs Match: Tomcraft - Boogie Nights (Like An Eagle)
+     -> Label encontrado: Great Stuff Recordings
+     -> [Authority] Discogs Authority Confirmed (Label: Great Stuff Recordings, Cat: GSR061)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 1273770)...
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] 9A - 125 - Can't Get Enough (Illyus & Barrientos Refix) - Soulsearcher.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Can't Get Enough
+║   ├── Artista:  Soulsearcher
+║   ├── Álbum:    Can’t Get Enough! (Remixes)
+║   ├── A.Artist: Soulsearcher
+║   ├── Año:      2018
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Single / Official
+║   ├── Country:          XW
+║   ├── ISRC:             GBCPZ1813648
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    1489fee1-16ba-4bc5-9728-49759939e606
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       2VuAooHs5bUlfB8qXaF4qK
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Buscando 'Deejay Deejay (Phunk Investigation Across The Tunnel Remix) - Msn Project Feat Ebony Burks' en Discogs...
+  -> [Enrichment] Buscando 'Auntie Agony (Daddys Groove Magic Island Remix) - Black Raw' en Discogs...
+     -> Deep Fetch Exitoso: 2 estilos.
+     -> Deep Fetch Créditos: M=True Mx=False R=False
+  -> [Enrichment] Spotify Dual Query: 'Tomcraft Boogie Nights' / 'Boogie Nights Tomcraft'
+     [Scoring] 'Heatwave - Boogie Nights' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Heatwave - Boogie Nights - Single Version' | Normal=0.54 Swap=0.00 Final=0.54
+     [Scoring] 'Tomcraft - Boogie Nights (Like An Eagle) (Original Mix)' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Tomcraft - Boogie Nights (Like An Eagle) (Lützenkirchen Remix)' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Heatwave - Boogie Nights' | Normal=0.60 Swap=0.00 Final=0.60
+     [Scoring] 'Tomcraft - Boogie Nights (Like An Eagle) (Original Mix)' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Tomcraft - Boogie Nights (Like An Eagle) (Lützenkirchen Remix)' | Normal=0.94 Swap=0.00 Final=0.94
+     [Scoring] 'Joy Peru RP - Boogie Breakdown' | Normal=0.20 Swap=0.00 Final=0.20
+  -> [Enrichment] Spotify Match: Boogie Nights (Like An Eagle) (Original Mix) - Boogie Nights (Like An Eagle) (2008)
+     -> Identidad Corregida: Tomcraft - Boogie Nights (Like An Eagle) (Original Mix)
+
+╔══ [AUDITORÍA PROFUNDA] 9A - 128 - Boogie Nights (Original Mix) - Tomcraft.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Boogie Nights (Like An Eagle) (Original Mix)
+║   ├── Artista:  Tomcraft
+║   ├── Álbum:    GU Mixed:3 Unmixed DJ Version
+║   ├── A.Artist: Tomcraft
+║   ├── Año:      2008
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Great Stuff Recordings
+║   ├── Catálogo:         GSR061
+║   ├── Formato:          CD
+║   ├── Estilos (Styles): House, Tech House
+║   ├── Type / Status:    Album / Official
+║   ├── Country:          GB
+║   ├── ISRC:             DEAA20800474
+║   ├── Remixer:          ---
+║   ├── Mastered By:      Uwe Malikowski
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    1feda8c0-cc52-4a8e-8c09-1fe6777c8074
+║   ├── Discogs Rel ID:   1273770
+║   ├── Spotify ID:       5Ou3rPkjAwKgosYfZfn5Fq
+║   ├── Fuente:           0.9400000000000001 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Buscando ' - Adrian Hour Love Something' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Buscando ' - Afterlife Tom Schön Henning Richter Remix' en Discogs...
+  -> [Enrichment] Discogs Match: Basement Jaxx - Junto Remixed
+     -> Label encontrado: Atlantic Jaxx
+     -> [Authority] Discogs Authority Confirmed (Label: Atlantic Jaxx, Cat: SLCD 369)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 11148795)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+  -> [Enrichment] Spotify Dual Query: 'Deejay Deejay Msn Project Feat Ebony Burks' / 'Msn Project Feat Ebony Burks Deejay Deejay'
+     [Scoring] 'DJ B Mac - Project 123' | Normal=0.10 Swap=0.00 Final=0.10
+  -> [Enrichment] Spotify Score insuficiente: 0.10
+  -> [Enrichment] Asignando Género por defecto: Electronic
+  -> SIN COINCIDENCIA para: 9A - 128 - Deejay Deejay (Phunk Investigation Across The Tunnel Remix) - Msn Project Feat Ebony Burks.mp3
+  -> [Enrichment] Discogs Match: George Perry (4) - Afterlife
+     -> Label encontrado: Soap Digital
+     -> [Authority] Discogs Authority Confirmed (Label: Soap Digital, Cat: Soap Digital 005)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 27580356)...
+     -> Deep Fetch Exitoso: 1 estilos.
+  -> [Enrichment] Artista desconocido. Activando Free Search con Título: 'Adrian Hour Love Something'
+  -> [Enrichment] Spotify Dual Query: 'Adrian Hour Love Something' / 'Adrian Hour Love Something'
+     [Scoring] 'Adrian Hour - Love Something' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Adrian Hour - Love Something - Original Mix' | Normal=0.80 Swap=0.00 Final=0.80
+     [Scoring] 'Adrian Hour - Love Something - TR810' | Normal=0.80 Swap=0.00 Final=0.80
+     [Scoring] 'Plan B - Tough Love' | Normal=0.14 Swap=0.00 Final=0.14
+     [Scoring] 'Adrian Hour - Love Something' | Normal=1.00 Swap=0.00 Final=1.00
+     [Scoring] 'Adrian Hour - Love Something - Original Mix' | Normal=0.80 Swap=0.00 Final=0.80
+     [Scoring] 'Adrian Hour - Love Something - TR810' | Normal=0.80 Swap=0.00 Final=0.80
+     [Scoring] 'Plan B - Tough Love' | Normal=0.14 Swap=0.00 Final=0.14
+  -> [Enrichment] Spotify Match: Love Something - Love Something / Don't Stop (2017)
+     -> Identidad Corregida: Adrian Hour - Love Something
+
+╔══ [AUDITORÍA PROFUNDA] y2mate.com - Adrian Hour  Love Something_320kbps.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Love Something
+║   ├── Artista:  Adrian Hour
+║   ├── Álbum:    Junto Remixed
+║   ├── A.Artist: 
+║   ├── Año:      2015
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Atlantic Jaxx
+║   ├── Catálogo:         SLCD 369
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   11148795
+║   ├── Spotify ID:       3ZaErWO9exKnoCKruvu5YW
+║   ├── Fuente:           1.0 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Spotify Dual Query: 'Auntie Agony Black Raw' / 'Black Raw Auntie Agony'
+     [Scoring] 'Black Mambo, Ácido Pantera - Efecto Manglar' | Normal=0.00 Swap=0.12 Final=0.12
+     [Scoring] 'Ferra Black - Black Roses' | Normal=0.20 Swap=0.20 Final=0.20
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.15 Final=0.96
+     [Scoring] 'Sabb, Forrest - One Of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.15 Final=0.96
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.15 Final=0.96
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix (Mixed)' | Normal=0.87 Swap=0.15 Final=0.87
+     [Scoring] 'Auntie Boy - Rats!' | Normal=0.13 Swap=0.00 Final=0.13
+     [Scoring] 'Black Mambo, Ácido Pantera - Efecto Manglar' | Normal=0.00 Swap=0.12 Final=0.12
+  -> [Enrichment] Spotify Match: Black Roses - Black Roses (2024)
+     -> Recuperado Album: Black Roses
+     -> Recuperado Año: 2024
+  -> [Enrichment] Asignando Género por defecto: Electronic
+  -> MATCH DESCARTADO (Confianza Baja 0.20): 9A - 130 - Auntie Agony (Daddys Groove Magic Island Remix) - Black Raw.mp3
+     -> Deep Fetch Exitoso: 2 estilos.
+  -> [Enrichment] Artista desconocido. Activando Free Search con Título: 'Afterlife Tom Schön Henning Richter Remix'
+  -> [Enrichment] Spotify Dual Query: 'Afterlife Tom Schön Henning Richter Remix' / 'Afterlife Tom Schön Henning Richter Remix'
+     [Scoring] 'George Perry, Tom Schön, Henning Richter - Afterlife - Tom Schön & Henning Richter Remix' | Normal=0.75 Swap=0.00 Final=0.75
+     [Scoring] 'Reivax - Afterlife - Radio Edit' | Normal=0.11 Swap=0.00 Final=0.11
+     [Scoring] 'Boris Brejcha - Afterlife' | Normal=0.12 Swap=0.00 Final=0.12
+     [Scoring] 'There's No Way Music - AFTERLIFE' | Normal=0.09 Swap=0.00 Final=0.09
+     [Scoring] 'Nu Aspect, JEWELS, MAGNUS - Afterlife' | Normal=0.10 Swap=0.00 Final=0.10
+     [Scoring] 'George Perry, Tom Schön, Henning Richter - Afterlife - Tom Schön & Henning Richter Remix' | Normal=0.75 Swap=0.00 Final=0.75
+     [Scoring] 'Reivax - Afterlife - Radio Edit' | Normal=0.11 Swap=0.00 Final=0.11
+     [Scoring] 'Boris Brejcha - Afterlife' | Normal=0.12 Swap=0.00 Final=0.12
+     [Scoring] 'There's No Way Music - AFTERLIFE' | Normal=0.09 Swap=0.00 Final=0.09
+     [Scoring] 'Nu Aspect, JEWELS, MAGNUS - Afterlife' | Normal=0.10 Swap=0.00 Final=0.10
+  -> [Enrichment] Spotify Match: Afterlife - Tom Schön & Henning Richter Remix - Afterlife (2013)
+     -> Identidad Corregida: George Perry, Tom Schön, Henning Richter - Afterlife - Tom Schön & Henning Richter Remix
+
+╔══ [AUDITORÍA PROFUNDA] y2mate.com - Afterlife Tom Schön  Henning Richter Remix_320kbps.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Afterlife - Tom Schön & Henning Richter Remix
+║   ├── Artista:  George Perry, Tom Schön, Henning Richter
+║   ├── Álbum:    Afterlife
+║   ├── A.Artist: 
+║   ├── Año:      2011
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     Soap Digital
+║   ├── Catálogo:         Soap Digital 005
+║   ├── Formato:          Digital
+║   ├── Estilos (Styles): Tech House, Deep House
+║   ├── Type / Status:    Other / Official
+║   ├── Country:          ---
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    ---
+║   ├── Discogs Rel ID:   27580356
+║   ├── Spotify ID:       1IGHsfP6abQ3IavN4qIiUS
+║   ├── Fuente:           0.75 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Buscando 'Chucky73 - Bzrp 43 (Catz 'n Dogz remix)' en Discogs...
+[Aviso] Discogs falló (Artista diferente: 'None' vs 'Sabb, Forrest, Dennis Ferrer'), usando metadatos de Spotify como definitivo.
+  -> [Enrichment] Buscando 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' en Discogs...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] 0 resultados. Reintentando con query limpia y sin año...
+  -> [Enrichment] Discogs Match: Bizarrap, Chucky73 - Chucky73: Bzrp Music Sessions, Vol. 43 
+     -> Label encontrado: DALE PLAY Records
+     -> [Authority] Discogs Authority Confirmed (Label: DALE PLAY Records, Cat: 196292238419)
+  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release 35019557)...
+  -> [Enrichment] 0 resultados. Intentando búsqueda INVERTIDA (Title - Artist)...
+     -> Deep Fetch Exitoso: 2 estilos.
+  -> [Enrichment] Spotify Dual Query: 'Chucky73 Bzrp 43' / 'Bzrp 43 Chucky73'
+     [Scoring] 'Bizarrap, Chucky73 - Chucky73: Bzrp Music Sessions, Vol. 43/66' | Normal=0.53 Swap=0.36 Final=0.53
+     [Scoring] 'Catz 'n Dogz - Chucky73 - Bzrp 43' | Normal=0.54 Swap=0.36 Final=0.54
+     [Scoring] 'Chucky73, Fetti031, Myke Towers - Zili' | Normal=0.36 Swap=0.00 Final=0.36
+     [Scoring] 'Bizarrap, Chucky73 - Chucky73: Bzrp Music Sessions, Vol. 43/66' | Normal=0.53 Swap=0.36 Final=0.53
+     [Scoring] 'Catz 'n Dogz - Chucky73 - Bzrp 43' | Normal=0.54 Swap=0.36 Final=0.54
+     [Scoring] 'Bizarrap, Milo j - Milo J: Bzrp Music Sessions, Vol. 57/66' | Normal=0.07 Swap=0.00 Final=0.07
+  -> [Enrichment] Spotify Match: Chucky73 - Bzrp 43 - Chucky73 - Bzrp 43 (2021)
+
+╔══ [AUDITORÍA PROFUNDA] y2mate.com - Chucky 73  Bzrp 43 Club Version  Catz n Dogz_320kbps.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   Bzrp 43 (Catz 'n Dogz remix)
+║   ├── Artista:  Chucky73
+║   ├── Álbum:    20 Years Of Catz 'n Dogz
+║   ├── A.Artist: Chucky73
+║   ├── Año:      2023
+║   ├── Género:   Hip Hop
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     DALE PLAY Records
+║   ├── Catálogo:         196292238419
+║   ├── Formato:          Digital Media
+║   ├── Estilos (Styles): Trap, Pop Rap
+║   ├── Type / Status:    Album / Official
+║   ├── Country:          XW
+║   ├── ISRC:             ---
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    e71e76ce-011f-4b4e-9a2b-c5f8e120e9cb
+║   ├── Discogs Rel ID:   35019557
+║   ├── Spotify ID:       4jmE3QZLQv9pIA791PGZ05
+║   ├── Fuente:           0.54 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
+  -> [Enrichment] Spotify Dual Query: 'Sabb One of Us - Dennis Ferrer Remix' / 'One of Us - Dennis Ferrer Remix Sabb'
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.15 Final=0.96
+     [Scoring] 'Sabb, Forrest - One Of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.15 Final=0.96
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.15 Final=0.96
+     [Scoring] 'Sabb, Forrest - One Of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.00 Final=0.96
+     [Scoring] 'Sabb, Forrest, Dennis Ferrer - One of Us - Dennis Ferrer Remix' | Normal=0.96 Swap=0.15 Final=0.96
+  -> [Enrichment] Spotify Match: One of Us - Dennis Ferrer Remix - One of Us (2015)
+  -> [Enrichment] Asignando Género por defecto: Electronic
+
+╔══ [AUDITORÍA PROFUNDA] y2mate.com - One of Us Dennis Ferrer Remix_320kbps.mp3 ══╗
+║ ► ID3v2.3 ESTÁNDAR
+║   ├── Título:   One of Us - Dennis Ferrer Remix
+║   ├── Artista:  Sabb, Forrest, Dennis Ferrer
+║   ├── Álbum:    Defected Presents Most Rated: Ibiza 2015
+║   ├── A.Artist: Sabb
+║   ├── Año:      2015
+║   ├── Género:   Electronic
+║   └── Track #:  
+║ ► DATOS EDITORIALES (Discogs/MB)
+║   ├── Sello (TPUB):     MISSING ⚠️
+║   ├── Catálogo:         MISSING ⚠️
+║   ├── Formato:          CD
+║   ├── Estilos (Styles): MISSING (Usando Genérico) ⚠️
+║   ├── Type / Status:    Album / Official
+║   ├── Country:          GB
+║   ├── ISRC:             DEX041500054
+║   ├── Remixer:          ---
+║   ├── Mastered By:      ---
+║ ► TRAZABILIDAD (TXXX Tags)
+║   ├── MB Release ID:    4725c6ad-44bc-4f19-b002-a6ecada120de
+║   ├── Discogs Rel ID:   ---
+║   ├── Spotify ID:       2Q2R8rbJ1WW3OmHrxEYJ17
+║   ├── Fuente:           0.96 (Confianza)
+╚══════════════════════════════════════════════════════╝
+
+[Tagger] MODO DRY-RUN: No se realizaron cambios en el disco.
