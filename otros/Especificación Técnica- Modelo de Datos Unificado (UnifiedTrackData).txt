@@ -1,0 +1,134 @@
+Especificación Técnica: Modelo de Datos Unificado (UnifiedTrackData)
+Proyecto: Mp3 Metadata Pipeline
+Versión del Documento: 1.2
+Estado: DEFINITIVO (BPM/Key Excluidos)
+Rol: Arquitectura de Datos
+1. Contexto y Propósito
+En el ecosistema de este proyecto, consumimos datos de tres fuentes dispares con estructuras incompatibles:
+MusicBrainz: Estructura relacional compleja (Works, Recordings, Releases).
+Discogs: Estructura orientada al objeto físico (Release, Master, Format).
+Spotify: Datos planos y métricas psicoacústicas (Energy, Valence).
+El Problema "Torre de Babel"
+Anteriormente, pasábamos diccionarios crudos (dict) entre módulos. Esto causaba errores silenciosos (ej: track['year'] vs track['date']), dificultad para rastrear el origen del dato y corrupción de etiquetas ID3 finales.
+La Solución
+Hemos implementado UnifiedTrackData, una dataclass maestra en Python que actúa como Contrato de Datos Único. Ningún módulo debe comunicarse con otro usando diccionarios JSON crudos; deben intercambiar instancias de esta clase.
+2. Decisiones de Arquitectura (Justificación)
+A. Tipado Estricto (Strict Typing)
+Usamos dataclasses con Type Hinting (Optional[str], Enum).
+Por qué: Para que el IDE (VS Code/PyCharm) detecte errores antes de ejecutar el pipeline. Si intentas asignar un string a un campo numérico, el linter avisará.
+B. Separación de Dominios (Sub-clases)
+No mezclamos peras con manzanas. La clase maestra se compone de tres pilares:
+ids: Solo identificadores únicos (IDs de máquina).
+editorial: Datos objetivos de catálogo (Sello, Catálogo, Créditos).
+audio: Datos de análisis de señal (Energy, Danceability). Nota: BPM y Key han sido eliminados intencionalmente.
+C. Vocabulario Controlado (Enums)
+Prohibido usar "strings mágicos" para campos categóricos.
+Incorrecto: format="Vinilo" o format="12 inch"
+Correcto: media_format=MediaFormat.VINYL
+Por qué: Garantiza que al filtrar la base de datos por "Vinilo", obtengamos el 100% de los resultados, sin importar si el dato vino de Discogs o MusicBrainz.
+D. Exclusión de BPM y KEY
+Se ha decidido eliminar el almacenamiento y procesamiento de BPM y KEY en este modelo central.
+Justificación: Estos datos son subjetivos y algorítmicos. Diferentes softwares (Rekordbox, Serato, Traktor) calculan valores distintos. Imponer un valor en el tag puede causar conflictos en el flujo de trabajo del DJ. El pipeline respeta la "tabula rasa" en estos campos técnicos.
+3. Estructura del Modelo
+Clase Maestra: UnifiedTrackData
+Es el contenedor raíz. Representa un archivo de audio único y sus metadatos finales.
+Campo
+Tipo
+Descripción
+title
+str
+Título limpio (ej. "One More Time").
+artist_main
+str
+Artista principal.
+ids
+ExternalIDs
+Objeto anidado de trazabilidad.
+editorial
+EditorialMetadata
+Objeto anidado de datos de Discogs/MB.
+audio
+AudioFeatures
+Objeto anidado de datos de Spotify.
+
+Componente 1: ExternalIDs (Trazabilidad)
+Almacena las llaves foráneas para cruzar nuestra DB con el mundo exterior.
+Uso: Fundamental para la etiqueta ID3 TXXX.
+Componente 2: EditorialMetadata (El "Alma" del Archivo)
+Aquí vive la información que distingue un "MP3 cualquiera" de un archivo de archivo profesional.
+Campos Clave:
+catalog_number: Vital para música electrónica.
+media_format: Enum MediaFormat. Distingue VINYL de DIGITAL.
+release_status: Enum ReleaseStatus. Identifica BOOTLEG o PROMOTION.
+Componente 3: AudioFeatures (Inteligencia Musical)
+Datos derivados del análisis de señal de Spotify.
+Campos: energy, danceability, valence, popularity.
+4. Instrucciones para Desarrolladores
+Regla #1: Importación
+El archivo schemas.py es una dependencia central.
+from data_structures.schemas import UnifiedTrackData, ExternalIDs, TXXXKeys, MediaFormat
+
+
+Regla #2: Instanciación Segura
+Siempre usen argumentos nombrados. No confíen en el orden de los parámetros.
+# CORRECTO
+track = UnifiedTrackData(
+    title="Music",
+    artist_main="Madonna",
+    year="2000"
+)
+
+# INCORRECTO (Peligroso)
+track = UnifiedTrackData("Music", "Madonna", "2000", ...) 
+
+
+Regla #3: Mapeo a ID3 (Etiquetas TXXX)
+No escriban strings manuales para las etiquetas personalizadas (TXXX). Usen siempre la clase estática TXXXKeys.
+Ejemplo de uso en el módulo Tag Writer:
+# En lugar de esto:
+# tag.add(TXXX(desc="Discogs Catalog", text="..."))
+
+# Hagan esto:
+tag.add(TXXX(desc=TXXXKeys.CATALOG_NUMBER, text=track.editorial.catalog_number))
+
+
+Esto nos permite cambiar el nombre de la etiqueta en el futuro en un solo lugar (schemas.py) sin refactorizar todo el código.
+Regla #4: Manejo de Nulos (NoneType)
+Casi todos los campos son Optional. Deben verificar existencia antes de usar.
+if track.editorial.media_format:
+    print(f"Fuente: {track.editorial.media_format.value}")
+else:
+    print("Fuente desconocida")
+
+
+5. Mapeo de Etiquetas ID3 (Salida Final)
+El siguiente cuadro resume qué campo del Dataclass alimenta qué etiqueta ID3v2.3.
+Campo Dataclass
+Etiqueta ID3 Standard
+Etiqueta ID3 Custom (TXXX)
+title
+TIT2
+-
+artist_main
+TPE1
+-
+album_artist
+TPE2
+-
+editorial.publisher
+TPUB
+-
+editorial.catalog_number
+-
+Catalog Number
+editorial.media_format
+TMED
+Media Format
+audio.energy
+-
+Audio Energy
+ids.discogs_release_id
+-
+Discogs Release Id
+
+Nota Final: Este esquema es la "verdad absoluta" del proyecto. Cualquier cambio en la estructura de datos debe reflejarse primero en schemas.py y en este documento antes de implementarse en código.
