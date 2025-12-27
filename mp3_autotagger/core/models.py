@@ -104,62 +104,24 @@ class TrackMetadataBase:
             return self.mb_recording.title
         return None
 
-    # --------------------------------------------------
-    # HEURÍSTICA MEJORADA PARA RELEASE
-    # --------------------------------------------------
-    def best_release(self) -> Optional[MBRelease]:
+    # Logic moved to heuristics.py
+    def get_best_release(self) -> Optional[MBRelease]:
         """
-        Heurística optimizada para DJ:
-        1. Releases Official
-        2. Releases cuyo título se parezca al de la grabación
-        3. Evitar compilatorios genéricos (Best Of, Dance Anthems, etc.)
-        4. Priorizar releases más antiguos
+        Delegates to ReleaseHeuristics.
         """
+        from mp3_autotagger.core.heuristics import ReleaseHeuristics
+        
         if not (self.mb_recording and self.mb_recording.releases):
             return None
-
+            
         releases = self.mb_recording.releases
-        rec_title = (self.mb_recording.title or "").lower().strip()
-
-        COMPILATION_PATTERNS = [
-            "best of",
-            "greatest hits",
-            "the very best",
-            "dance anthems",
-            "hits of",
-            "mega hits",
-            "collection",
-            "collections",
-            "anthology",
-            "various artists",
-        ]
-
-        def looks_like_compilation(title: str) -> bool:
-            t = title.lower()
-            return any(pat in t for pat in COMPILATION_PATTERNS)
-
-        def score_release(rel: MBRelease) -> tuple:
-            # 1. Official
-            status = (rel.status or "").lower()
-            is_official = 1 if status == "official" else 0
-
-            # 2. Coincidencia de títulos
-            rel_title = (rel.title or "").lower().strip()
-            title_match = 0
-            if rec_title and rel_title:
-                if rec_title in rel_title or rel_title in rec_title:
-                    title_match = 1
-
-            # 3. Penalización compilatorios
-            is_compilation = 1 if looks_like_compilation(rel_title) else 0
-
-            # 4. Fecha
-            date_str = rel.date or ""
-            date_key = date_str if date_str else "9999-99-99"
-
-            return (-is_official, -title_match, is_compilation, date_key)
-
-        sorted_releases = sorted(releases, key=score_release)
+        rec_title = self.mb_recording.title
+        
+        # Sort using the heuristic key
+        sorted_releases = sorted(
+            releases, 
+            key=lambda r: ReleaseHeuristics.score_release(r, rec_title)
+        )
         return sorted_releases[0] if sorted_releases else None
 
 

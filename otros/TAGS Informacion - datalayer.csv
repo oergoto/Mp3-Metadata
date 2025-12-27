@@ -1,0 +1,33 @@
+ID3 Tag,Nombre Común,Mutagen Key,Uso en Pipeline & Reglas de Negocio
+TIT2,Title,TIT2,Título de la canción.
+TPE1,Lead Artist,TPE1,Artista principal. Usar / como separador si hay múltiples (ej. Daft Punk / Pharrell).
+TALB,Album,TALB,"Nombre del Release (EP, Single, LP). Coincidir exactamente con Discogs/MB."
+TPE2,Album Artist,TPE2,"Define el artista ""padre"". En compilaciones debe ser ""Various Artists""."
+TYER,Year,TYER,Año de lanzamiento original del Release. Solo 4 dígitos (ej. 1999).
+TRCK,Track Number,TRCK,Posición. Formato XX/YY (ej. 01/04). Vital para mantener el orden del álbum.
+TCON,Genre,TCON,"Género musical. Usar taxonomía normalizada (ej. House, Techno, Disco)."
+TPUB,Publisher,TPUB,Sello Discográfico (Label). Prioridad alta para búsquedas de DJ.
+TSRC,ISRC,TSRC,Código único de grabación. Clave para identificar duplicados exactos y gestión de derechos.
+TPE4,Remixer / Modified By,TPE4,"Crédito explícito para el Remixer. Algunos players lo muestran, otros no, pero es semánticamente correcto."
+TCOP,Copyright,TCOP,Aviso legal (ej. © 2024 Defected Records).
+COMM,Comments,COMM,"Notas personalizadas. Usar descripción vacía o eng. Formato: Energy: 5, Drop: Fast."
+APIC,Cover Art,APIC,Imagen incrustada. Tipo 3 (Front Cover). Mime image/jpeg.
+TXXX,,TXXX,
+,,,
+Spotify,,,
+URL Spotify,URL Spotify,,
+,,,
+Discogs,,,
+Catalog Number,"Ej: FAC 51, UR-001","EL DATO MÁS IMPORTANTE. En electrónica, el número de catálogo define la época y el sello mejor que el nombre.",
+Styles,"Ej: Deep House, Tech House","ID3 Genre es muy amplio (""Electronic""). Style de Discogs es granular y específico.",
+Country,"Ej: UK, US, Germany","El ""UK Garage"" suena distinto al ""US Garage"". El origen geográfico es contexto cultural.",
+Format,"Ej: Vinyl, CD, File",¿Es un rip de vinilo o un web-dl? Importante para saber la calidad esperada.,
+Credits (Role),"""Mastered By"", ""Mixed By""","Saber quién masterizó (ej. ""Nilesh Patel"") es sello de calidad de sonido.",
+URL Discogs,URL Discogs,,
+Discogs Release Id,ID numérico del release en Discogs.,,
+,,,
+MusicBrainz,,,
+Release Status,"Official, Bootleg, Promo",Separar lanzamientos oficiales de white labels o bootlegs no oficiales.,
+Release Type,"Album, EP, Single, Compilation",Fundamental. No es lo mismo el track en el álbum que el Single original.,
+MusicBrainz_Track_ID,MusicBrainz_Track_ID,,
+AcoustID,AcoustID,,

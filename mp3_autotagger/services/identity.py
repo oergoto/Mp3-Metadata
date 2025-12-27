@@ -5,6 +5,7 @@ import re
 
 from mp3_autotagger.clients.spotify import SpotifyClient
 from mp3_autotagger.clients.musicbrainz import MusicBrainzClient
+from mp3_autotagger.config import CONFIDENCE_THRESHOLD_HIGH
 from mp3_autotagger.core.acoustid import identify_with_acoustid, analyze_file
 from mp3_autotagger.core.fallback import clean_filename
 
@@ -58,8 +59,26 @@ class IdentityService:
             
             if results:
                 best = results[0]
-                if best.score > 0.20:
-                    print(f"  -> [Identity] Spotify Identified: {best.title} ({best.artist})")
+                
+                # STRICT VALIDATION
+                is_valid = True
+                
+                # 1. Score Check
+                if best.score < CONFIDENCE_THRESHOLD_HIGH:
+                    print(f"     [Strict] Identity descartada por bajo score ({best.score:.2f})")
+                    is_valid = False
+                    
+                # 2. Duration Check
+                if is_valid and best.duration_ms:
+                    local_info = analyze_file(file_path)
+                    if local_info["duration"]:
+                        diff = abs(local_info["duration"] - (best.duration_ms / 1000.0))
+                        if diff > 5.0:
+                             print(f"     [Strict] Identity descartada por duración (Diff: {diff:.1f}s)")
+                             is_valid = False
+
+                if is_valid:
+                    print(f"  -> [Identity] Spotify Identified: {best.title} ({best.artist}) [Score={best.score:.2f}]")
                     return TrackIdentity(
                         artist=best.artist,
                         title=best.title,

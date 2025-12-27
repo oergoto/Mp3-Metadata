@@ -28,6 +28,7 @@ class TXXXKeys:
     COUNTRY = "Country"                # Changed from "Release Country" to "Country"
     STYLE = "Styles"                   # Changed from "Genre Style" to "Styles"
     LABEL_URL = "URL Discogs"          # Mapped to WXXX usually, but keeping key if used in TXXX
+    SPOTIFY_URL = "URL Spotify"        # New Phase 24
     
     # Créditos Extendidos
     MASTERED_BY = "Mastered By"
@@ -90,6 +91,8 @@ class ExternalIDs:
     spotify_id: Optional[str] = None
     acoustid_fingerprint: Optional[str] = None
     isrc: Optional[str] = None
+    spotify_url: Optional[str] = None
+    discogs_release_url: Optional[str] = None
 
 @dataclass
 class AudioFeatures:

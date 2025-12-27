@@ -15,3 +15,15 @@ USER_AGENT = os.getenv("USER_AGENT", "MP3-Metadata-Pipeline/1.0 (+contacto@examp
 
 if not ACOUSTID_API_KEY:
     raise RuntimeError("ACOUSTID_API_KEY no está configurada en .env")
+
+# ------------------------------------------------------
+# HEURISTICS & THRESHOLDS (Centralized)
+# ------------------------------------------------------
+COMPILATION_KEYWORDS = [
+    "best of", "greatest hits", "the very best", "dance anthems",
+    "hits of", "mega hits", "collection", "collections", 
+    "anthology", "various artists"
+]
+
+CONFIDENCE_THRESHOLD_HIGH = 0.90
+CONFIDENCE_THRESHOLD_MEDIUM = 0.70

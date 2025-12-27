@@ -61,27 +61,45 @@ class MusicBrainzClient:
     # Método GET genérico
     # -------------------------
     def _get(self, path: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-        self._throttle()
-
         url = f"{MUSICBRAINZ_BASE_URL}/{path}"
         headers = {"User-Agent": self.user_agent}
 
         if params is None:
             params = {}
-
         params.setdefault("fmt", "json")
 
-        # Usar la sesión con caché
-        resp = self.session.get(url, headers=headers, params=params, timeout=30)
-        
-        # Debug: Saber si vino del caché
-        if hasattr(resp, 'from_cache') and resp.from_cache:
-            # print(f"  [MB-Cache] Hit: {path}")
-            pass
+        max_retries = 3
+        backoff = 2
 
-        resp.raise_for_status()
+        for attempt in range(max_retries):
+            self._throttle()
+            try:
+                # Usar la sesión con caché
+                resp = self.session.get(url, headers=headers, params=params, timeout=30)
+                
+                # Debug: Saber si vino del caché
+                if hasattr(resp, 'from_cache') and resp.from_cache:
+                    pass
 
-        return resp.json()
+                resp.raise_for_status()
+                return resp.json()
+                
+            except (requests.ConnectionError, requests.Timeout, requests.exceptions.ChunkedEncodingError) as e:
+                if attempt < max_retries - 1:
+                    sleep_time = backoff * (attempt + 1)
+                    print(f"  [MB] Advertencia: Error de conexión ({e}). Reintentando en {sleep_time}s...")
+                    time.sleep(sleep_time)
+                else:
+                    raise e
+            except requests.HTTPError as e:
+                # 503 is Service Unavailable (Rate Limit sometimes)
+                if e.response.status_code in [500, 502, 503, 504] and attempt < max_retries - 1:
+                     sleep_time = backoff * (attempt + 1)
+                     print(f"  [MB] Advertencia: Error servidor {e.response.status_code}. Reintentando en {sleep_time}s...")
+                     time.sleep(sleep_time)
+                else:
+                     raise e
+        return {} # Should not reach here
 
     # -------------------------
     # Obtener información de RECORDING

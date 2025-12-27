@@ -63,52 +63,20 @@ class MusicBrainzMapper:
     @staticmethod
     def _select_best_release(recording: MBRecording) -> Optional[MBRelease]:
         """
-        Heuristic migrated from TrackMetadataBase.best_release()
-        Prioritizes:
-        1. Official Status
-        2. Title similiarity
-        3. Non-compilations
-        4. Oldest date
+        Heuristic delegates to ReleaseHeuristics module.
         """
+        from mp3_autotagger.core.heuristics import ReleaseHeuristics
+
         if not recording.releases:
             return None
 
-        rec_title = (recording.title or "").lower().strip()
+        rec_title = recording.title
         
-        COMPILATION_PATTERNS = [
-            "best of", "greatest hits", "the very best", "dance anthems",
-            "hits of", "mega hits", "collection", "collections",
-            "anthology", "various artists"
-        ]
-
-        def looks_like_compilation(title: str) -> bool:
-            t = (title or "").lower()
-            return any(pat in t for pat in COMPILATION_PATTERNS)
-
-        def score_release(rel: MBRelease) -> tuple:
-            # 1. Official
-            status = (rel.status or "").lower()
-            is_official = 1 if status == "official" else 0
-
-            # 2. Title Match
-            rel_title = (rel.title or "").lower().strip()
-            title_match = 0
-            if rec_title and rel_title:
-                if rec_title in rel_title or rel_title in rec_title:
-                    title_match = 1
-
-            # 3. Compilation Penalty
-            # Penalize if it LOOKS like a compilation
-            is_compilation = 1 if looks_like_compilation(rel_title) else 0
-            
-            # 4. Date (Prefer older)
-            date_str = rel.date or ""
-            date_key = date_str if date_str else "9999-99-99"
-
-            # Sort Key: (Official DESC, TitleMatch DESC, IsComp ASC, Date ASC)
-            return (-is_official, -title_match, is_compilation, date_key)
-
-        sorted_releases = sorted(recording.releases, key=score_release)
+        # Sort Key using shared heuristic
+        sorted_releases = sorted(
+            recording.releases, 
+            key=lambda r: ReleaseHeuristics.score_release(r, rec_title)
+        )
         return sorted_releases[0]
 
     @staticmethod
@@ -203,6 +171,11 @@ class DiscogsMapper:
         # Country Override (if MB missing) - Discogs often better
         if result.discogs_country and not unified.editorial.country:
              unified.editorial.country = result.discogs_country
+        
+        # URL (Phase 24)
+        if result.discogs_release_id:
+             # Reconstruct browsable URL safe fallback
+             unified.ids.discogs_release_url = f"https://www.discogs.com/release/{result.discogs_release_id}"
             
         return unified
 

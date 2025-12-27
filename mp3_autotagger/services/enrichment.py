@@ -20,7 +20,13 @@ class EnrichedMetadata:
     discogs_release_id: Optional[int] = None # Phase 21
     discogs_master_id: Optional[int] = None # Phase 21
     spotify_id: Optional[str] = None # Phase 23
-    # audio_features: Removed Phase 17
+    
+    # New Phase 24: Credits & URLs
+    mastered_by: Optional[str] = None
+    mixed_by: Optional[str] = None
+    remixed_by: Optional[str] = None
+    discogs_url: Optional[str] = None
+    spotify_url: Optional[str] = None
 
 class EnrichmentService:
     def __init__(self, discogs_client: Optional[DiscogsClient], spotify_client: Optional[SpotifyClient] = None):
@@ -117,28 +123,55 @@ class EnrichmentService:
                 styles = best_cand.get("style") or best_cand.get("styles") or []
                 
                 # AGGRESSIVE MODE: Deep Fetch
-                if not styles and best_cand.get("id"):
-                    print(f"  -> [Enrichment] Estilos faltantes en búsqueda. Iniciando Deep Fetch (GET Release {best_cand.get('id')})...")
-                    try:
-                        rel_id = best_cand.get("id")
-                        if rel_id:
-                            full_rel = self.discogs.get_release(rel_id)
-                            if full_rel:
-                                new_styles = full_rel.get("styles") or full_rel.get("style") or []
-                                if new_styles:
-                                    styles = new_styles
-                                    print(f"     -> Deep Fetch Exitoso: {len(styles)} estilos encontrados: {styles}")
-                                
-                                new_genres = full_rel.get("genres") or full_rel.get("genre")
-                                if new_genres:
-                                    g = new_genres
-                                    if isinstance(g, list) and g:
+                # Always needed for Credits (Phase 24) or missing Styles
+                should_deep_fetch = (not styles) or (not final.mastered_by and not final.mixed_by)
+                
+                if best_cand.get("id"):
+                    # Construct Browsable URL
+                    final.discogs_url = f"https://www.discogs.com/release/{best_cand.get('id')}"
+                    
+                    if should_deep_fetch:
+                        print(f"  -> [Enrichment] Iniciando Deep Fetch para Créditos/Estilos (Release {best_cand.get('id')})...")
+                        try:
+                            rel_id = best_cand.get("id")
+                            if rel_id:
+                                full_rel = self.discogs.get_release(rel_id)
+                                if full_rel:
+                                    # Styles
+                                    new_styles = full_rel.get("styles") or full_rel.get("style") or []
+                                    if new_styles:
+                                        styles = new_styles
+                                        print(f"     -> Deep Fetch Exitoso: {len(styles)} estilos.")
+                                    
+                                    # Genres
+                                    new_genres = full_rel.get("genres") or full_rel.get("genre")
+                                    if new_genres:
+                                        g = new_genres
+                                        if isinstance(g, list) and g:
                                             final.genre = g[0]
-                                    elif isinstance(g, str):
+                                        elif isinstance(g, str):
                                             final.genre = g
-                    except Exception as e:
-                        print(f"     -> Deep Fetch Falló: {e}")
-                        
+                                            
+                                    # Credits (Phase 24)
+                                    extra = full_rel.get("extraartists", [])
+                                    masters, mixers, remixers = [], [], []
+                                    for art in extra:
+                                        role = (art.get("role") or "").lower()
+                                        name = art.get("name")
+                                        if not name: continue
+                                        if "master" in role: masters.append(name)
+                                        if "mix" in role: mixers.append(name)
+                                        if "remix" in role: remixers.append(name)
+                                    
+                                    if masters: final.mastered_by = ", ".join(masters)
+                                    if mixers: final.mixed_by = ", ".join(mixers)
+                                    if remixers: final.remixed_by = ", ".join(remixers)
+                                    if masters or mixers:
+                                        print(f"     -> Deep Fetch Créditos: M={bool(masters)} Mx={bool(mixers)} R={bool(remixers)}")
+                                        
+                        except Exception as e:
+                            print(f"     -> Deep Fetch Falló: {e}")
+                            
                 final.styles = styles
 
                 if not final.cover_url and best_cand.get("thumb"):
@@ -238,10 +271,12 @@ class EnrichmentService:
                          
                          # PERSIST SPOTIFY ID (Phase 23 Fix)
                          final.spotify_id = best_s.id
+                         final.spotify_url = best_s.url # Phase 24
 
                          # IDENTITY CORRECTION
                          # If Score > 0.6 OR it was a Free Search (Unknown Artist), we trust the result
                          should_correct_identity = (best_s.score > 0.6) or is_free_search
+                         identity_changed = False
                          
                          if should_correct_identity: 
                              if final.artist != best_s.artist or final.title != best_s.title:

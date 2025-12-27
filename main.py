@@ -13,7 +13,8 @@ def main():
     parser = argparse.ArgumentParser(description="Mp3 Metadata MagicTagger - RAW to CLEAN Processor")
     parser.add_argument("input_path", help="Directorio RAW de origen (Solo lectura)")
     parser.add_argument("output_path", help="Directorio CLEAN de destino (Escritura)")
-    parser.add_argument("--write", "-w", action="store_true", help="Ejecutar escritura real (Si no se usa, es DRY-RUN)")
+    parser.add_argument("--write", "-w", action="store_true", help="Ejecutar escritura real de archivos")
+    parser.add_argument("--dry-run", action="store_true", help="Modo simulación (No modifica archivos)")
     parser.add_argument("--no-discogs", action="store_true", help="Saltar búsqueda en Discogs")
     
     args = parser.parse_args()
@@ -33,8 +34,15 @@ def main():
         logger.info(f"Creando directorio destino: {args.output_path}")
         os.makedirs(args.output_path, exist_ok=True)
 
-    # Configuración
-    dry_run = not args.write
+    # Configuración de Dry Run
+    # Prioridad: Si --dry-run está presente, es True.
+    # Si --write está presente, dry_run es False.
+    # Por defecto (sin flags): dry_run es True (Seguridad por defecto)
+    dry_run = True
+    if args.write:
+        dry_run = False
+    if args.dry_run:
+        dry_run = True
     use_discogs = not args.no_discogs
     
     logger.info("=== Mp3 Metadata Pipeline (Manager Mode) ===")
