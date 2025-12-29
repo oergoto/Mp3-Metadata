@@ -1,0 +1,5 @@
+flet>=0.21.0
+mutagen>=1.46.0
+pyacoustid>=1.2.2
+requests>=2.28.0
+python-dotenv>=1.0.0
